@@ -1,5 +1,5 @@
 def listoverlap(list1, list2):
-    return
+    return list(set(list1).intersection(list2))
 
 
 def main():
